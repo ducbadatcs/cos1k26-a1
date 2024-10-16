@@ -1,0 +1,106 @@
+.logo {
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+img {
+	text-align: left;
+	text-size-adjust: 5%;
+
+}
+
+nav {
+	background-image: url('backgrond3.png');
+	background-size: cover;
+	text-align: center;
+	padding: 0.5em 0.5em
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	background-color: rgb(56, 56, 119);
+	background-size: cover;
+	list-style: none;
+	float: right;
+	font-size: 96%;
+}
+
+nav ul li a {
+	display: block;
+	font-weight: bold;
+	padding: .625em 3.5em;
+	font-family: 'Afacad Flux';
+	color: rgb(255, 255, 255);
+	border-right: 1px black;
+}
+
+nav header h1 {
+	font-family: 'Afacad Flux', Arial;
+	font-size: 7em;
+	color: rgb(255, 236, 252);
+	padding: 0.2em 0.4em
+}
+
+section h2 {
+	font-family: 'Source Code Pro', Arial;
+	font-size: 2em;
+	color: rgb(84, 0, 62);
+	font-weight: bolder;
+}
+
+section p {
+	font-family: 'Source Code Pro', Arial;
+	color: rgb(0, 0, 0);
+	font-size: 1.2em;
+}
+
+div {
+	background-color: rgb(62, 62, 111);
+	text-decoration: none;
+	display: block;
+	width: fit-content;
+	height: fit-content;
+	font-weight: bold;
+	padding: .625em 3.5em;
+	border-radius: 10px;
+
+}
+
+div a {
+	font-size: 1.3em;
+	font-family: 'Afacad Flux', Arial;
+	color: antiquewhite;
+}
+
+#job1,
+#job2,
+#job3 {
+	float: left;
+	width: 30%;
+	text-align: justify;
+	margin: 1em 1em 1em 1em;
+}
+
+footer {
+	font-family: 'Afacad Flux', Arial;
+	padding: .625em 3.5em;
+	background-color: rgb(56, 56, 119);
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+section h2 {
+	font-family: 'Afacad Flux', Arial;
+	color: rgb(39, 8, 34);
+	font-weight: bold;
+}
+
+section p {
+	font-family: 'Afacad Flux', Arial;
+	color: rgb(39, 8, 34);
+}

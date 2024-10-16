@@ -4,10 +4,25 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="../css/index.css">
 	<title>Document</title>
 </head>
 
 <body>
+	<header>
+		<nav>
+			<a href="index.html">Home</a>
+			<a href="jobs.html">Job Description</a>
+			<a href="app.html">Application</a>
+			<a href="enhancement.html">Enhancements</a>
+			<a href="about.html">About Us</a>
+		</nav>
+	</header>
 	<form action="https://mercury.swin.edu.au/it000000/formtest.php" method="post">
 		<label for="job_reference_number">Job Reference Number: </label>
 		<input type="text" name="job_reference_number" id="job_reference_number" pattern="[a-zA-Z0-9]{5}" required
@@ -69,7 +84,7 @@
 		<input type="checkbox" name="CSS" id="css"><label for="css"> CSS</label><br>
 		<input type="checkbox" name="JavaScript" id="js"><label for="js"> JavaScript</label><br>
 		<input type="checkbox" name="PHP" id="php"><label for="php"> PHP</label><br>
-		<input type="checkbox" name="MySQL" id="mysql"><label for="mysql"> MySQL</label>
+		<input type="checkbox" name="MySQL" id="mysql"><label for="mysql"> MySQL</label><br>
 		<input type="checkbox" name="Other Skills" id="other_skills"><label for="Other Skills">other_skills</label><br>
 
 		<textarea name="other_skills" id="other_skills_textarea">
