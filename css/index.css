@@ -1,23 +1,29 @@
-header {
-    border-bottom: 1px black solid;
-    background-color: rgb(0, 0, 0);
-    padding-bottom: 30px;
-    text-align: center;
-    position: absolute;
-    top: 0;
-    z-index: 4;
-    width: 100%;
-    color: black;
-    margin-left: 0;
-    display: inline;
-}
-
+/* all files */
 body.index-body {
     margin-top: 50px;
     margin: auto;
     /* background-size: cover; */
     font-family: "Lato", sans-serif;
     /* width: 80%; */
+    padding-top: 100px;
+    /* Space for the header */
+    margin: auto;
+    font-family: "Lato", sans-serif;
+}
+
+header {
+    border-bottom: 1px black solid;
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 30px;
+    text-align: center;
+    /* position: fixed; */
+    top: 0;
+    display: block;
+    z-index: 0;
+    width: 100%;
+    height: fit-content;
+    color: black;
+    margin-left: 0;
 }
 
 nav {
@@ -26,10 +32,10 @@ nav {
 
 nav a {
     padding-inline: 10px;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    /* padding-top: 20px; */
+    /* padding-bottom: 10px; */
     background-color: rgb(0, 0, 0);
-    display: inline;
+    display: inline-block;
     margin: 0%;
     font-size: 20px;
     text-align: center;
@@ -44,6 +50,10 @@ nav a {
 nav a :hover {
     color: black;
 }
+
+
+
+
 
 #h1_img {
     height: fit-content;
@@ -107,7 +117,7 @@ footer {
     width: 100%;
     bottom: 0;
     text-align: center;
-    z-index: 4;
+    /* z-index: 4; */
     border-top: 1px black solid;
     background-color: blueviolet 0.7;
     margin-bottom: 0;
@@ -117,6 +127,8 @@ footer {
 /* Form */
 
 form {
+    margin-top: 100px;
+    display: block;
     border: 5px solid blue;
     text-align: center;
     width: 60%;
